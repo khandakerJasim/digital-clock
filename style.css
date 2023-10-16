@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+ 
+ *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height:100px;
+    display:flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.clock{
+    width:550px;
+    height: 50px;
+    display:flex;
+    justify-content:space-between;
+    text-align: center;
+    
+}
+.clock div{
+    background-color: aliceblue;
+    color:blueviolet;
+    height:100px;
+    width:560px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 60px;
+    border-radius: 5px;
+}
+.clock span{
+    font-weight: bolder;
+    font-size: 70px;
+    color:red;}
+
+
+
+
